@@ -11,7 +11,7 @@ class Car extends Vehicle{
     super();
     this._numWheels = 4;
     this._capacity = capacity;
-    this._occupents = null;
+    this._occupants = null;
     this._roomLeft = null;
   }
   get numWheels() { return this._numWheels; }
@@ -22,15 +22,20 @@ class Car extends Vehicle{
     this._capacity = value;
   }
 
-  get occupents() { return this._occupents; }
+  get roomLeft() {
+    this._calcRoomLeft();
+    return this._roomLeft;
+  }
 
-  set occupents(value){
-    this._occupents = value;
+  get occupansts() { return this._occupants; }
+
+  set occupants(value){
+    this._occupants = value;
     this._calcRoomLeft();
   }
 
   _calcRoomLeft(){
-    this._roomLeft = this._capacity - this._occupents;
+    this._roomLeft = this._capacity - this._occupants;
   }
 
 }
@@ -50,6 +55,6 @@ let console = new Console("console");
 
 let volt = new Car(4);
 
-volt.occupents = 1;
+volt.occupants = 1;
 
-console.log("Room left in the vehicle: " + volt._roomLeft);
+console.log("Room left in the vehicle: " + volt.roomLeft);
