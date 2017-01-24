@@ -52,4 +52,4 @@ let volt = new Car(4);
 
 volt.occupents = 1;
 
-console.log(volt._roomLeft);
+console.log("Room left in the vehicle: " + volt._roomLeft);
