@@ -11,7 +11,7 @@ class Car extends Vehicle{
     super();
     this._numWheels = 4;
     this._capacity = capacity;
-    this._occupants = null;
+    this._occupants = 0;
     this._roomLeft = null;
   }
   get numWheels() { return this._numWheels; }
