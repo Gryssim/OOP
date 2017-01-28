@@ -6,6 +6,7 @@ class Vehicle {
   }
 }
 
+
 class Car extends Vehicle{
   constructor(capacity){
     super();
