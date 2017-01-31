@@ -14,3 +14,6 @@ Use a private function to determine a value on a change.
 
 Assignment 3:
 Assignment 2 written in Java
+
+Assignment 4:
+Assignment 2 written in C++
