@@ -13,7 +13,7 @@ int main(int argc, char *argv[]){
   vehicles::Car *volt = new vehicles::Car(4);
   std::cout << "Room left in the car: " << volt->getRoomLeft() << std::endl;
   volt->setOccupants(1);
-  std::cout << "Room left in the car: " << volt->getRoomLeft() << std::endl;
+  std::cout << "Room left   in the car: " << volt->getRoomLeft() << std::endl;
 
   for(int i = 0; i < vehicles.size(); i++){
     std::cout << "Room left in the vehicle: "
