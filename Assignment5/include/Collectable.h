@@ -6,12 +6,12 @@
 namespace collection{
   class Collectable{
   public:
-    Collectable(){
-      _buyers = { };
-    }
+    Collectable();
+    void AddBuyer(std::string buyer);
+    std::vector<std::string> GetBuyers();
 
 
   private:
-    std::vector<string> _buyers;
-  }
+    std::vector<std::string> _buyers;
+  };
 }

@@ -4,17 +4,17 @@
 #include "Collectable.h"
 
 namespace art{
-  class Art : Collectable{
+  class Art: public virtual collection::Collectable{
   public:
-    Art(double value, string artist);
+    Art(double value, std::string artist);
 
     int getValue() const;
     void setValue(double value);
 
-    string getArtist() const;
+    std::string getArtist() const;
 
   private:
     double _value;
-    string _artist;
-  }
+    std::string _artist;
+  };
 }

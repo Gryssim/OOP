@@ -1,7 +1,10 @@
 #pragma once
 
+#include "Collectable.h"
+
 namespace vehicles{
-  class Vehicle{
+
+  class Vehicle: public virtual collection::Collectable{
   public:
     Vehicle();
     virtual int getCapacity() const;

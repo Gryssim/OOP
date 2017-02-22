@@ -6,9 +6,9 @@
 #include "Art.h"
 
 namespace vehicles{
-  class CustomCar : public Vehicle, public Art{
+  class CustomCar : public Vehicle, public art::Art{
   public:
-    CustomCar(int capacity, double value, string artist);
+    CustomCar(int capacity, double value, std::string artist);
 
     int getNumWheels() const;
     void setNumWheels(int wheels);

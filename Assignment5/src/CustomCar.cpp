@@ -1,15 +1,14 @@
 #include "Vehicle.h"
 #include "Art.h"
+#include "CustomCar.h"
 
 namespace vehicles{
 
-  public:
-    CustomCar::CustomCar(int capacity, double value, string artist )
+    CustomCar::CustomCar(int capacity, double value, std::string artist )
     :
-    collection::Collectable()
     art::Art(value, artist)
-    _capacity = capacity
     {
+      setCapacity(capacity);
     }
 
     int CustomCar::getNumWheels() const { return _numWheels; }
