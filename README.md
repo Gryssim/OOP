@@ -17,3 +17,9 @@ Assignment 2 written in Java
 
 Assignment 4:
 Assignment 2 written in C++
+
+Assignment 5:
+C++ Example with multiple, diamond, inheritance.
+
+Assignment 6(Pattern Examples):
+Mediator/Decorator pattern examples.
