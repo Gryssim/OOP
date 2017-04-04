@@ -1,0 +1,5 @@
+/home/dgplock/Documents/OOP/Mediator/Mediator/Mediator/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/dgplock/Documents/OOP/Mediator/Mediator/Mediator/bin/Debug/Mediator.exe.mdb
+/home/dgplock/Documents/OOP/Mediator/Mediator/Mediator/bin/Debug/Mediator.exe
+/home/dgplock/Documents/OOP/Mediator/Mediator/Mediator/obj/x86/Debug/Mediator.exe
+/home/dgplock/Documents/OOP/Mediator/Mediator/Mediator/obj/x86/Debug/Mediator.exe.mdb
