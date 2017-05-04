@@ -26,3 +26,4 @@ Mediator/Decorator pattern examples.
 
 OOP Final:
 Breakout Clone with Factory Pattern used.
+Primary logic in window package, GamePanel class.
