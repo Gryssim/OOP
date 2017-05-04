@@ -23,3 +23,6 @@ C++ Example with multiple, diamond, inheritance.
 
 Assignment 6(Pattern Examples):
 Mediator/Decorator pattern examples.
+
+OOP Final:
+Breakout Clone with Factory Pattern used.
