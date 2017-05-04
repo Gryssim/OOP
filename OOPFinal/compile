@@ -1,2 +1,0 @@
-#!/bin/bash
-javac -d classes -cp classes -s src $(find src -name '*.java')
