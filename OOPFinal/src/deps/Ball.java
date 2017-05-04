@@ -5,13 +5,13 @@ import commons.Commons;
 
 public class Ball extends GameObject{
 
-  private int xDir;
-  private int yDir;
+  private float xDir;
+  private float yDir;
   private int radius;
 
   public Ball(int _radius, Color _color){
-    this.xDir = 1;
-    this.yDir = -1;
+    this.xDir = 2;
+    this.yDir = -2;
     this.radius = _radius;
     this.color = _color;
     this.objWidth = 2 * this.radius;
@@ -25,13 +25,13 @@ public class Ball extends GameObject{
     locY += yDir;
 
     if(locX == 0){
-      setXDir(1);
+      setXDir(2);
     }
     if(locX == Commons.WINDOW_WIDTH - objWidth){
-      setXDir(-1);
+      setXDir(-2);
     }
     if(locY == 0){
-      setYDir(1);
+      setYDir(2);
     }
   }
 
@@ -40,19 +40,19 @@ public class Ball extends GameObject{
     locY = Commons.BALL_Y_START;
   }
 
-  public void setXDir(int _xDir){
+  public void setXDir(float _xDir){
     xDir = _xDir;
   }
 
-  public int getXdir(){
+  public float getXdir(){
     return xDir;
   }
 
-  public void setYDir(int _yDir){
+  public void setYDir(float _yDir){
     yDir = _yDir;
   }
 
-  public   int getYDir(){
+  public float getYDir(){
     return yDir;
   }
 
